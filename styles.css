@@ -13,7 +13,6 @@ header {
 .wrapper {
     overflow: hidden;
     width: 80%;
-    border: 1px solid white;
     margin: 0 auto;
 
 }
@@ -127,8 +126,8 @@ header {
     float: left;
 }
 
- .single:last-child {
-    border-right: none; 
+.single:last-child {
+    border-right: none;
 }
 
 .top {
@@ -139,9 +138,11 @@ header {
     width: 25%;
     float: left;
 }
-.icon img{
+
+.icon img {
     width: 100%;
 }
+
 .content {
     width: 60%;
     float: left;
@@ -157,10 +158,12 @@ header {
     margin: 0 0;
 }
 
-.content h2 {font-family: sans-serif;
+.content h2 {
+    font-family: sans-serif;
     font-size: 25px;
     color: #0077BC;
-    margin: 0 0;}
+    margin: 0 0;
+}
 
 .bottom {}
 
@@ -171,50 +174,58 @@ header {
     margin: 20px 0 20px;
     line-height: 20px;
 }
+
 /* service end */
 
 /*section start*/
-.contact{
-	/*border:1px solid red;*/
-	background-color: #040811;
-	padding: 25px 0px 15px 0px;
+.contact {
+    /*border:1px solid red;*/
+    background-color: #040811;
+    padding: 25px 0px 15px 0px;
 }
-.address{
-	/*border:1px solid red;*/
-	color:white;
-	width: 32%;
-	font-family: sans-serif;
-	font-weight: 400;
-	float: left;
-	margin-right: 20px;
+
+.address {
+    /*border:1px solid red;*/
+    color: white;
+    width: 32%;
+    font-family: sans-serif;
+    font-weight: 400;
+    float: left;
+    margin-right: 20px;
 
 }
-.address span{
-	color:#1c6ab5;
+
+.address span {
+    color: #1c6ab5;
 }
-.customer{
-	color:white;
-	float: left;
-	width: 32%;
-	font-family: sans-serif;
-	font-weight: 400;
-	position: relative;
+
+.customer {
+    color: white;
+    float: left;
+    width: 32%;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
 }
-.comment{
-	/*border:1px solid red;*/
-	background-color: #0C1019;
-	padding: 25px 15px 10px 15px;
-	border-radius: 8px;
+
+.comment {
+    /*border:1px solid red;*/
+    background-color: #0C1019;
+    padding: 25px 15px 10px 15px;
+    border-radius: 8px;
 }
-.comment h2{
-	margin:0;
+
+.comment h2 {
+    margin: 0;
 }
-.comment h1{
-	margin:5px 0px;
-	color:#1c6ab5;
+
+.comment h1 {
+    margin: 5px 0px;
+    color: #1c6ab5;
 }
+
 .comment::after {
-	width: 0;
+    width: 0;
     height: 0;
     content: "";
     border-top: 20px solid #0C1019;
@@ -224,51 +235,134 @@ header {
     right: 60px;
     z-index: 999;
 }
-.name{
-	width: 32%
-	margin: 0;
+
+.name {
+    width: 32% margin: 0;
 }
-.name h2{
-	margin: 25px 0 0px 0px;
+
+.name h2 {
+    margin: 25px 0 0px 0px;
 }
-.name p{
-	padding: 4px 0px 30px;
-	margin: 0;
+
+.name p {
+    padding: 4px 0px 30px;
+    margin: 0;
 }
-.applications{
-	/*border:1px solid red;*/
-	width:32%;
-	float: left;
-	color:white;
-	overflow: hidden;
+
+.applications {
+    /*border:1px solid red;*/
+    width: 32%;
+    float: left;
+    color: white;
+    overflow: hidden;
 }
-.mobile{
-	float: left;
-	width: 49%;
+
+.mobile {
+    float: left;
+    width: 49%;
 }
-.mobile img{
-	width: 60%;
+
+.mobile img {
+    width: 60%;
     float: left;
     margin: 0px 20px 0px 20px;
 }
-.mobile h2{
-	font-family: sans-serif;
-	float: left;
-	margin: 1px 0px 2px 10px;
+
+.mobile h2 {
+    font-family: sans-serif;
+    float: left;
+    margin: 1px 0px 2px 10px;
 }
-.soft{
-	width: 49%;
+
+.soft {
+    width: 49%;
     float: left;
 }
-.soft h2{
-	font-family: sans-serif;
-	font-size: 30px;
+
+.soft h2 {
+    font-family: sans-serif;
+    font-size: 30px;
     font-weight: 400;
     margin: 0;
 }
-.soft img{
-	float: left;
-	width: 100%;
-	margin-top: 20px;
+
+.soft img {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
 }
+
 /*section end*/
+
+/*footer start*/
+
+footer {
+    background: #121B2C;
+    padding: 10px 0 30px;
+}
+
+.footer_menu {
+    width: 60%;
+    float: left;
+}
+
+.footer_menu_links {
+    overflow: hidden;
+}
+
+.footer_menu_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer_menu_links ul li {
+    float: left;
+
+}
+
+.footer_menu_links ul li a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 0 16px;
+    transition: .5s;
+    border-right: 1px solid white;
+}
+
+.footer_menu_links ul li:last-child a {
+    border-right: none;
+}
+
+.footer_menu_links ul li a:hover {
+    color: #0077BC;
+}
+
+
+.copyright p {
+    font-family: sans-serif;
+    color: white;
+    padding-left: 16px;
+}
+
+.footer_logo {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+.symbian img,
+.logo_dark img {
+    width: 100%;
+}
+
+.symbian,
+.logo_dark {
+    width: 40%;
+    float: left;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+}
+
+/*footer end*/
